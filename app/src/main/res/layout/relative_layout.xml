@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp"
+        android:fontFamily="serif"
+        android:text="#BunnyAids"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/ppp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="27dp"
+        android:text="Location: ROQUE"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="105dp"
+        android:text="Distance from UST: 0 km"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_backrel"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="44dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button_nextrel"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button_backrel"
+        android:layout_marginEnd="44dp"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Relative Layout"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>
